@@ -7,9 +7,9 @@
     <AssemblyTitle>Landis.Extension.Output.BiomassByAge-v4</AssemblyTitle>
     <AssemblyProduct>Landis.Extension.Output.BiomassByAge-v4</AssemblyProduct>
     <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
-    <AssemblyVersion>4.0</AssemblyVersion>
-    <Version>4.0</Version>
-    <FileVersion>4.0.0.0</FileVersion>
+    <AssemblyVersion>4.1</AssemblyVersion>
+    <Version>4.1</Version>
+    <FileVersion>4.1</FileVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass-By-Age</RepositoryUrl>
@@ -30,10 +30,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Landis.Library.UniversalCohorts-v1">
-    </Reference>
     <Reference Include="Landis.Library.Metadata-v2">
       <HintPath>lib\Landis.Library.Metadata-v2.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.UniversalCohorts-v2">
+      <HintPath>..\..\..\..\Documents\GitHub\Extension-NECN-Succession\src\lib\Landis.Library.UniversalCohorts-v2.dll</HintPath>
     </Reference>
   </ItemGroup>
 
